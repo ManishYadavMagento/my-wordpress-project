@@ -1,0 +1,31 @@
+# WordPress core config
+wp-config.php
+
+# Ignore WordPress uploads, cache, and upgrade folders
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Ignore log and database files
+*.log
+*.sql
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Node / Composer / other temp files if used
+node_modules/
+vendor/
+*.zip
+*.tar.gz
+
+# Ignore OS-specific files
+ehthumbs.db
+Desktop.ini
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
