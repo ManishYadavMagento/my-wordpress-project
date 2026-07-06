@@ -1,0 +1,45 @@
+.agents/
+.DS_Store
+Thumbs.db
+
+# Local archives and backups
+backups/
+*.zip
+*.gz
+*.sql
+
+# Environment and editor noise
+.env
+.env.*
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Ignore the WordPress install by default
+/wordpress/*
+!/wordpress/wp-content/
+
+# Ignore wp-content by default, then allow only the custom theme
+/wordpress/wp-content/*
+!/wordpress/wp-content/themes/
+
+/wordpress/wp-content/themes/*
+!/wordpress/wp-content/themes/anshika-digital-library/
+!/wordpress/wp-content/themes/anshika-digital-library/**
+
+# Runtime/generated WordPress content
+/wordpress/wp-content/cache/
+/wordpress/wp-content/upgrade/
+/wordpress/wp-content/uploads/
+
+# Third-party plugins are not tracked right now
+/wordpress/wp-content/plugins/
